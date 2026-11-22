@@ -56,7 +56,20 @@ footer .soc a{display:inline-block;border-color:#78A96B;color:#fff}
 /* ===== Version alignée sur la maquette ===== */
 /* Photos : déposer images/hero.jpg et images/equipe.jpg pour remplacer les illustrations (voir README) */
 header .w{padding-top:8px;padding-bottom:8px}
-.logo svg{width:64px;height:64px}.logo b{font-size:46px}.logo small{font-size:12px;color:var(--tx);font-weight:600}
+/* Véritable logo ASE */
+.logo{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+}
+
+.logo img{
+    width:220px;
+    height:auto;
+    max-height:75px;
+    object-fit:contain;
+    display:block;
+}
 .hdr{display:flex;align-items:center;gap:28px;flex-wrap:wrap}
 .rs{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--g);color:var(--on);font-size:13px;font-weight:700;text-decoration:none}
 .rs svg{width:14px;height:14px;fill:var(--on)}
