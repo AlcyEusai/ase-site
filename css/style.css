@@ -187,3 +187,68 @@ footer .brand b{font-size:38px;line-height:1}
     background: #286B45;
     color: #fff;
 }
+
+
+/* ===== LOGO ASE - EN-TÊTE ===== */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: #286B45;
+    flex-shrink: 0;
+}
+
+.logo img {
+    width: 85px;
+    height: 85px;
+    max-height: none;
+    object-fit: contain;
+    display: block;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.logo-text strong {
+    font-size: 34px;
+    font-weight: 800;
+    color: #286B45;
+}
+
+.logo-text span {
+    font-size: 13px;
+    font-weight: 800;
+    color: #17452D;
+}
+
+.logo-text small {
+    font-size: 11px;
+    font-weight: 600;
+    color: #78A96B;
+    margin-top: 4px;
+}
+
+/* Adaptation mobile */
+@media (max-width: 520px) {
+    .logo img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo-text strong {
+        font-size: 27px;
+    }
+
+    .logo-text span {
+        font-size: 10px;
+    }
+
+    .logo-text small {
+        font-size: 9px;
+    }
+}
