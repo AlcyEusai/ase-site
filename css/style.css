@@ -147,3 +147,24 @@ footer .brand b{font-size:38px;line-height:1}
     background-position: center bottom;
     background-size: 100% 100%;
 }
+.hero {
+    position: relative;
+    min-height: 430px;
+    background-image: url("../images/hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    position: relative;
+    max-width: 560px;
+    padding: 65px 0 60px 7%;
+    z-index: 2;
+}
+
+.hero-content h1 {
+    color: #174b32;
+    font-size: 42px;
+    line-height: 1.15;
+}
