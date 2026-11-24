@@ -18,7 +18,15 @@ def page(fn, title, desc, body, hero=None):
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
 <link rel="stylesheet" href="css/style.css"></head><body>
 <a class="skip" href="#main">Aller au contenu</a>
-<header><div class="w"><a class="logo" href="index.html" aria-label="ASE – Accueil">{LOGO}<span><b>ASE</b><small>Agriculture, Services et Expertise</small></span></a><div class="hdr"><nav aria-label="Navigation principale">{nav}</nav><div class="soc">{soc()}</div></div></div></header>
+<header><div class="w"><a class="logo" href="index.html" aria-label="ASE – Accueil">
+    <img src="images/ASE-symbole-seul.svg" alt="Symbole ASE">
+
+    <div class="logo-text">
+        <strong>ASE</strong>
+        <span>ALL SOLUTION ENGINEERING</span>
+        <small>Solutions related to each need</small>
+    </div>
+</a><div class="hdr"><nav aria-label="Navigation principale">{nav}</nav><div class="soc">{soc()}</div></div></div></header>
 <main id="main">{top}{body}</main>
 <footer><div class="w"><div><div class="brand">{LOGO}<span><b>ASE</b><br><small>Agriculture, Services et Expertise</small></span></div><p><em>Ensemble pour une agriculture durable</em></p></div>
 <div><h3>Liens utiles</h3><a href="mentions-legales.html">Mentions légales</a><a href="confidentialite.html">Politique de confidentialité</a><a href="plan-du-site.html">Plan du site</a></div>
