@@ -29,7 +29,7 @@ def page(fn, title, desc, body, hero=None):
 </a><div class="hdr"><nav aria-label="Navigation principale">{nav}</nav><div class="soc">{soc()}</div></div></div></header>
 <main id="main">{top}{body}</main>
 <footer><div class="w"><div><div class="brand">
-    <img src="images/logo.svg" alt="ASE – All Solution Engineering">
+    <img src="images/ASE-symbole-seul.svg" alt="Symbole ASE">
     <span class="brand-name">
         <strong>ASE</strong>
         <small>ALL SOLUTION ENGINEERING</small>
