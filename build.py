@@ -28,7 +28,14 @@ def page(fn, title, desc, body, hero=None):
     </div>
 </a><div class="hdr"><nav aria-label="Navigation principale">{nav}</nav><div class="soc">{soc()}</div></div></div></header>
 <main id="main">{top}{body}</main>
-<footer><div class="w"><div><div class="brand">{LOGO}<span><b>ASE</b><br><small>Agriculture, Services et Expertise</small></span></div><p><em>Ensemble pour une agriculture durable</em></p></div>
+<footer><div class="w"><div><div class="brand">
+    <img src="images/logo.svg" alt="ASE – All Solution Engineering">
+    <span class="brand-name">
+        <strong>ASE</strong>
+        <small>ALL SOLUTION ENGINEERING</small>
+        <em>Solutions related to each need</em>
+    </span>
+</div><p><em>Ensemble pour un avenir durable</em></p></div>
 <div><h3>Liens utiles</h3><a href="mentions-legales.html">Mentions légales</a><a href="confidentialite.html">Politique de confidentialité</a><a href="plan-du-site.html">Plan du site</a></div>
 <div><h3>Suivez-nous</h3><div>{soc()}</div></div>
 <div><h3>Newsletter</h3><p>Restez informé de nos actualités</p><form class="aseform nl" data-key="newsletterEndpoint"><label class="skip" for="nl-{fn[:-5]}">Votre e-mail</label><input id="nl-{fn[:-5]}" name="email" type="email" placeholder="Votre e-mail" required autocomplete="email"><button type="submit" aria-label="S’inscrire">→</button></form><div class="fmsg" role="status"></div></div></div>
